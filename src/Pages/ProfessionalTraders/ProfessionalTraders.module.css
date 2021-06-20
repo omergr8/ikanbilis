@@ -1,0 +1,101 @@
+.proTraders {
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+.descriptionMain {
+  text-align: left !important;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #262b7f;
+}
+.bar {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.blueBar {
+  border: 1px solid transparent;
+  height: 5px;
+  width: 33px;
+  border-radius: 3px;
+  background-color: #1a66ff;
+}
+.greenBar {
+  border: 1px solid transparent;
+  height: 5px;
+  width: 47px;
+  border-radius: 3px;
+  background-color: #66ffff;
+  margin-left: 10px;
+}
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  /* line-height: 48.41; */
+  color: #555555;
+}
+.description2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #555555;
+}
+
+.button {
+  margin-top: 25px;
+}
+.button Button {
+  background: linear-gradient(95.06deg, #1a2dff -26.93%, #1a9fff 99.42%);
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  width: 191px;
+  height: 55px;
+  border-radius: 3px;
+}
+.grid {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.mobileHeader {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .heading {
+    font-size: 30px;
+  }
+  .mobileHeader {
+    display: block;
+  }
+  .desktopHeader {
+    display: none;
+  }
+  .bar {
+    justify-content: center;
+  }
+  .descriptionMain {
+    text-align: center !important;
+  }
+  .descriptionMain {
+    width: 95% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button Button {
+    width: 163px;
+    height: 39px;
+  }
+}
+@media only screen and (max-width: 710px) {
+  .descriptionMain {
+    min-width: 10px;
+  }
+}

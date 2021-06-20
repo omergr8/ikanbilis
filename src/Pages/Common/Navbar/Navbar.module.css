@@ -1,0 +1,71 @@
+.flex {
+  top: 45px;
+  position: absolute;
+  width: 100%;
+  z-index: 999 !important;
+  color: white;
+}
+.gSelect {
+  min-width: 70px !important;
+}
+.gridLink {
+  margin-top: 10px !important;
+}
+.scheduleButton {
+  border-radius: 50px !important;
+  background: linear-gradient(
+    95.06deg,
+    #1a2dff -26.93%,
+    #1a9fff 99.42%
+  ) !important;
+  width: 117px !important;
+  height: 45px !important;
+}
+.itemIcon {
+  margin-top: 10px;
+}
+.mobileNavDiv {
+  display: none;
+}
+.countrySelect button {
+  border-color: transparent !important;
+  width: 80%;
+}
+.countrySelect button::after {
+  border-top: 5px solid white !important;
+}
+
+@media only screen and (max-width: 1010px) {
+  .flex {
+    display: none;
+  }
+  .drawerr {
+    z-index: 99999 !important;
+    background-image: url("../../../Assets/hero2.png") !important;
+  }
+  .drawerBody {
+    height: 80%;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+  }
+
+  .mobileNavDiv {
+    display: flex;
+    justify-content: space-around;
+    top: 30px;
+    text-align: center;
+    position: absolute;
+    z-index: 99;
+    color: red !important;
+    width: 100%;
+  }
+  .itemImg {
+    margin-left: 50px;
+  }
+  .logoImg {
+    width: 90%;
+  }
+}

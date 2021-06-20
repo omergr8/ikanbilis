@@ -1,12 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
 .App {
   text-align: center;
 }
-
+.container {
+  max-width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.simpleProcessBack {
+  position: absolute;
+  top: 3050px;
+}
+.sixDotsApp {
+  position: absolute;
+  top: 4360px;
+  left: 60px;
+}
+.largeCircle {
+  position: absolute;
+  top: 4760px;
+  left: 0px;
+}
+.smallCircle {
+  position: absolute;
+  top: 5360px;
+  left: 1200px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -34,5 +57,28 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.slick-prev,
+.slick-next {
+  font-size: 25px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: "" !important;
+}
+@media only screen and (max-width: 767px) {
+  .simpleProcessBack {
+    display: none;
+  }
+  .sixDotsApp {
+    display: none;
+  }
+  .largeCircle {
+    display: none;
+  }
+  .smallCircle {
+    display: none;
   }
 }

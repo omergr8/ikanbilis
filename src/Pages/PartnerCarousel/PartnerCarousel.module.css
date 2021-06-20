@@ -1,0 +1,29 @@
+.partnerCarousel {
+  margin-bottom: 250px;
+}
+.mobileDiv {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mobile {
+  display: none;
+}
+.sixDots {
+  float: right;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 840px) {
+  .partnerCarousel {
+    margin-bottom: 0px;
+  }
+  .sixDots {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
